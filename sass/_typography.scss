@@ -1,0 +1,43 @@
+.heading-1 {
+    color: $color-blue-dark;
+    font-size: 3.6rem;
+    font-weight: 275;
+    letter-spacing: 0.025rem;
+
+    @media only screen and (max-width: 27.8em) {
+        text-align: center;
+    }
+
+    &--span {
+        text-align: center;
+        font-size: 3.6rem;
+        font-weight: 600;
+        letter-spacing: 0.025rem;
+    }
+}
+
+.heading-2 {
+    color: $color-blue-dark;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.text {
+        color: $color-blue-dark;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 2.5rem; /* 166.667% */
+        letter-spacing: 0.0104rem;
+}
+
+.box-text {
+    color: $color-blue-dark;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.3rem; /* 176.923% */
+    letter-spacing: 0.009rem;
+    opacity: 0.5;
+    margin-bottom: 4rem;
+}
